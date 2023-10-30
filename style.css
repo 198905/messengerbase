@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(94, 13, 67);
+    padding-left: 15%;
+    padding-right:15%;
+  }
+.modal {
+    position: relative;
+    height: 30%;
+    width: 50%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom:auto;
+    margin-right: auto;
+}
+.display{
+    max-width:100%;
+}
+.modalText {
+    width: 100%;
+    color:white;
+}
+.buttonModal {
+    background-color:transparent
+}
+#form {
+    display: flex;
+    flex-direction: row;
+}
+.messagesType {
+    padding: 15px 15px 15px 15px;
+    height:30%;
+    
+}
+.name {
+    font-size:xx-large;
+    color:blueviolet; 
+}
+.messages {
+    max-height: 500px;
+    overflow: auto;
+    padding:10% 30% 0% 10%;
+    border-radius: 20px;
+}
+.messageEnvoyer {
+    display:none;
+}
+/**/
+.messageField {
+    margin-top:50px;
+}
+#nameSession {
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+}
+#message {
+    color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+/*new*/
+.messageFieldUser {
+    margin-top:50px;
+}
+#nameSessionUser {
+    color:rgb(255, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+}
+#messageUser {
+    color:rgb(255, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.messageFieldUser2 {
+    margin-top:50px;
+}
+#nameSessionUser2 {
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8px;
+}
+#messageUser2 {
+    color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+/**/
+.messageC {
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    border-radius: 20px;
+    background-color: transparent;
+    border:none;
+    color:red;
+}
+
+.MicroAndFiles {
+    display: flex;
+    flex-direction: row;
+}
+.micro .files {
+    color: white;
+}
